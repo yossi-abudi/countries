@@ -1,7 +1,42 @@
-#isr {
-    border-radius:50%; height: 2%; width: 2%;
+header {
+
+    position: fixed;
+    left: 70px;
+    width: 800px;
+    top: 0;
+    text-align: center;
+    background-color: aliceblue;
+    z-index: 1;
+    font-size: 25px
+}
+h2{
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    margin: 0;
+
+}
+img {
+    border-radius:50%; width: 50px ; height: 50px;; border: 1px black solid;
 
 }
 #flg_data {
     display: inline-block;
+}
+
+.countries {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 55px;
+}
+li {
+    list-style: none;
+    border-top: solid black 1px;
+}
+p#israel{
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    margin: 0;
 }
